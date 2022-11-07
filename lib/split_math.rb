@@ -1,4 +1,8 @@
-require 'split_math/calculator'
+# frozen_string_literal: true
 
-class SplitMath
+require_relative "split_math/version"
+
+module SplitMath
+  class Error < StandardError; end
+  # Your code goes here...
 end
